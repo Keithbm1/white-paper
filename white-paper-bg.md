@@ -1,56 +1,56 @@
-# Disclaimer
+# Декларация за отказ от отговорност
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Цялата информацията, изложена в тази "бяла книга" носи предварителен характер. 
+Следователно нито авторите, нито който и да е от свързаните с тях лица поемат каквато и да е отговорност относно това, че информацията, изложена в този документ е окончателна или достоверно точна и всеки от изброените лица носи отказ от отговорност, 
+до максимална степен, която разрешена от съществуващото законодателство, от всякаква отговорност независимо дали произтича от някакъв вид правонарушение, договор или е свързана с тази "бяла книга" по друг начин. 
+Нито предложената "бяла книга", нито каквато и да е информаиця, съдържаща се в нея не може да служи като основание за спор или да бъде използвана за такова или да действа като подканване за сключване на какъвто и да е договор или ангажимент. 
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Нищо в тази "бяла книга" не представлява оферта за продажба или подкана към покупка на токени, обсъждани в документацията.
+Във всеки случай, ако в някои места тази "бяла книга" ще се разглежда като подобно предложение или подкана, заявяваме, че никакво подобно предложение или подкана са били намерение или цел от настоящата документация във всяка юрисдикция, където това е незаконно, 
+където подобна оферта или подкана изискват лиценз или регистрация, или където подобна оферта или подкана подлежат на ограничения. 
+По-специално, всички токени, за които ще става въпрос в документацията не са били, и към датата на издаване на тази "бяла книга" не са предназначени да бъдат регистрирани съгласно законите, касаещи ценни книжа на която и да е юрисдикция, 
+и дали тази юрисдикция приема или не токени като като вид ценни книжа или подобен инструмент и не може да се предлага или продава в която и да е юрисдикция, където подобни действия представляват нарушение на съответнните закони на тази юрисдикция. 
 
 
-# License
+# Лиценз
 
-The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+Изходният код [^src] на даденият документ е достъпен под лиценз на Creative Commons Attribution-ShareAlike 4.0 International[^cc] .
 
 [^src]: See: @sources
 [^cc]: See: @cc
 
 
-# Introduction
+# Въведение
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Интернет пространството е съставено предимно от проекти с отворен код и е бил такъв от самото му създаване. 
+С течение на времето, много от тези проекти са се превърнали във фундаментални, върху които са изградени всички последващи иновации. 
+И докато върху тази технология бяха изградени цели състояния, отворения код основно се създава и поддържа без компенсации. 
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Ние смятаме, че цялата съвременна човешка дейност е закърняла поради факта, че разчита основно на малък процент инженери от целия свят, които са принудени да избират между заплата и поддържане на Интернет дейността. 
+Отвореният код е продукт на грижовен труд, често възпрепятстван от липса на значими икономически стимули, водещи до невъзможност на наистина значими проекти да достигнат своя потенциал, при други проекти възникват проблеми със сигурността поради липса на достатъчно стимули за поддържане на софтуера.
+За да се реализира напълно потенциала е необходимо създаване на справедлива система на възнаграждения към цялата екосистема с отворен код, което обаче не променя фундаментално начина, по който е изградена или използвана. 
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Предприятията често използват бизнес модели свързани с отворения код, генеририрайки приходи директно от работата на добросъвестните разработчици, докато разчита на тях за коригиране на грешки при възникване на проблеми. 
+Чудесен пример е скорошният инцидент, включващ критична уязвимост на сигурността в Log4j, пакет от Apache Software Foundation, който намери своето приложение в много от търговските софтуери и услуги, използвани от различни предприятия и от правителството. 
+През Ноември 2021г, изследовател по сигурността, работещ за Alibaba Group Holding Ltd. съобщава за уязвимост CVE-2021-44228[^1], която получава най-висока възможна оценка от Apache Software Foundation. 
+Amit Yoran, Главен изпълнителен директор на Tenable и директор основател на United States Computer Emergency Readiness Team (US-CERT), описа този вид уязвимост като “най-голямата и най-критична уязвимост от последното десятилетие”[^2].
+След тези събития последва паника и няколко доброволци, отговорни за поддръжка на въпросния пакет, бяха публично критикувани за провала. 
+След като в отговор на възникналото възмущение се появи скромна молба за възстановяване на справедливост, системите бяха поправени. 
+Предприятията и правителствата разбраха в крайна сметка, че Log4j, пакет, използван от голям брой критично важни системи в продължение на две десятилетия, беше поддържан от няколко доброволци за собсвена сметка, същите невъзпяти герои, които се впускат в действие въпреки злоупотребите от индустрията[^3] и работят неуморно за справяне с уязвимостта.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+За съжаление Log4j далеч не е единственият пример.
+core-js се изтегля 30 милиона пъти седмично като база за всяко Node.js приложение, което също така почти не се финансира. 
+Наскоро няколко от основните биткойн разработчици подадоха оставка, посочвайки наред с други причини *липса на финансова компенсация* за решението си.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Отбелязваме многобройни опити за предлагане на различни структури за стимулиране, обикновено включващи системи за спонсорство и различни награди.
+Системите за спонсорство дават възможност за потребителите, използващи отворен код да даряват в полза на проекти, които те самите предпочитат. 
+Въпреки това, представете си отворения код като кула от тухли, където долните слоеве са отдавна забравени, но все още поддържани от отдадени на каузата инженери и където все още се разчита на доста разработчици. 
+Обикновено само проектите на върха на кулата са известни и получават спонсорство. 
+Този вид избирателна селекция води до това, че тухлите в основата, които поддържат цялата кула без да привличат дарения, докато горните предпочитани тухли получават повече, отколкото им е необходимо. 
+Наградите позволяват на потребителите на проекти възможности за предлагане на плащане на разработчиците за изграждане на специфични функции, като по този начин се предлага възнаграждение за проекти, които извършват дейности, не задължително в техен интерес. 
+И отново, награждават се само фаворитите.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
+В този документ, ви представяме tea — децентрализирана система за справедливо възнаграждение на разработчиците с отворен код въз основа на техния принос към цялата екосистема, въведена чрез алгоритъма за финансово стимулиране, прилаган за всички записи в регистъра на tea.
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
@@ -61,52 +61,52 @@ $\parskip=0pt plus 1pt$
 [^3]: Source: @twitter
 
 
-# Components
+# Компоненти
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager.
-Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product.
-This layer is where we see the potential to change how open-source is remunerated.
+Всеки разработчик на софтуер, създаващ приложения, се нуждае от четири неща: браузър, терминал, редактор и мениджър на пакети.
+От изброените четири неща, мениджърът на пакети е това, което контролира инструментите и основите, необходими на разработчика, за създаването на своя продукт.
+Точно това ниво представлява елемента, където виждаме потенциала за промяна на начина, по който се възнаграждава отвореният код. 
 
-## The Package Manager
+## Мениджър на пакети
 
-The package manager knows what open-source software an application depends on to function, from the top of the tower to its base.
-Every component and version essential to the application is known and recorded.
-It knows that the top of the tower carefully selects its dependencies and that careful selection continues down.
-The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
+В самия мениджър на пакети е заложено да знае от какъв софтуер с отворен код зависи функционирането на дадено приложение, от върха на кулата до основата.
+Всеки компонент и версия, които са от съществено значение за приложението, са известни и записани. 
+Той знае, че върхът на кулата внимателно избира своите зависимости и този прецизен подбор продължава надолу. 
+Мениджърът на пакети заема уникално място в стека с инструменти за разработчици, за да позволи автоматизирано и прецизно разпределение на стойности въз основа на действителното им използване в реалния свят. 
 
-We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health.
-Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+Ние предлагаме неизменен децентрализиран регистър, предназначен за разпределяне на стойност въз основа на алгоритъм, определящ приноса на всеки запис към полезността и здравето на системата.
+Стойността може да стане част от графиката във връхните точки – приложения и основни библиотеки – и да бъде разпределена към зависимостите на тези връхни точки рекурсивно, тъй като регистърът познава цялата графика с отворен код. 
 
-Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author.
-This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
+Също така смятаме, че съществена информация трябва да бъде достъпна чрез мениджъра на пакети, за да могат разработчиците да направят прецененка дали да се доверят на избрания пакет и неговия автор. 
+Дадена информация може да се основава на репутация, позитивни отзиви откъм общността, данни, извлечени от системи за децентрализирана самоличност (DID[^4]), други мениджъри на пакети или механизми за финансово стимулиране, които потенциално разчитат на участници в мрежата, излагащи на риск икономическата стойност. 
 
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping stimulate the growth of open-source software and fostering innovation.
+Предвиждаме, че комбинацията от инструменти, информация и награди на tea справедливо ще стимулират разработчиците, помагайки за стимулиране на развитието на софтуера с отворен код и насърчавайки иновациите. 
 
 [^4]: See: @w3
 
-## The Decentralized Registry
+## Децентрализираният регистър
 
-Every package manager has its own package registry duplicating the same metadata repeatedly.
-It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it.
-This decentralized, immutable registry could provide security, stability and prevent
-malevolent intent.
+Всеки един от мениджърите на пакети има свой собствен регистър на пакети, който дублира едни и същи метаданни многократно.
+Дойде време за създаване на единен, пълен и окончателен регистър, проектиран и управляван от общностите, които зависят от него.
+Такъв тип децентрализиран, постоянен регистър може да осигури сигурност, стабилност и да предотврати 
+злонамерени намерения.
 
-The Internet runs on tens of thousands of vital open-source components.
-It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal.
-The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days.
-This event demonstrated that the Internet itself is based on fragile systems of development.
-Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]),
-or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]),
-or malicious packages with intentional misspelling errors, also known as typosquatting,
-in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
+Интернет работи с десетки хиляди жизненоважни компоненти с отворен код. 
+Интересен факт е, че досега инцидентите, причинени от премахването на основна инфраструктура с отворен код, са минимални. 
+Най-известниятият пример беше премахването на зависимостта на NPM left-pad[^5] през 2016 г., която каскадно оказа влияние върху системите за непрекъсната интеграция и непрекъснато внедряване, оставяйки разработчиците без финансиране в продължение на дни. 
+Това събитие показа, че самият интернет е основан върху крехки системи за разработка. 
+Другите примери включват активно или умишлено участие от поддържащите пакети, саботиращи техните популярни пакети (вижте colors.js, faker.js[^6], и node-ipc[^7]),
+или лоши участници, които искат да спечелят, като се преструват, че помагат в поддръжката на пакети и ги повреждат за да крадат, например, Bitcoin частни ключове (Вижте event-stream[^8]),
+или злонамерени пакети с умишлени правописни грешки, известни също като typosquatting, 
+чиято цел е да подмамят потребителите за да ги инсталират, например пакети crossenv vs. cross-env NPM [^npmjsCrossenv].
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software.
-We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+Целостта на софтуера трябва да бъде гарантирана, докато цялата индустрията напредва към бъдещето, в което цифровите активи ще са част от самия софтуер. 
+Нив не можем да позволим да се оставяме уязвими към злонамерените участници, модифициращите софтуера. 
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors.
-Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes[^9], with some remaining undetected for extended periods (See Webmin 1.890[^10]).
+Повечето инструменти, които наричаме мениджъри на пакети, не могат да гарантират, че тези пакети, вградени в приложенията и dApps, представляват непроменен код с отворен код, публикуван от оригиналните им автори. 
+В GitHub на Microsoft се установи, че 17% от уязвимостите в софтуерните програми са създадени със злонамерени цели[^9], като някои от тях остават неоткрити за дълъг период от време (See Webmin 1.890[^10]).
 
-A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
+Децентрализираният регистър, подкрепен от система за репутация и от икономическите стимули, създадени да разкриват лошите участници и да възнаграждават добрите участници, може да предостави необходимите гаранциите, които общностите на разработчиците толкова търсят. 
 
 [^5]: Source: @theregister
 [^6]: Source: @fossa
@@ -117,28 +117,28 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^10]: Source: @threatpost
 
 
-## The Storage System
+## Система за съхранение
 
-Open-source packages deliver a broad range of functionality, some of which may be restricted or unwanted.
-Encryption is an excellent example of that.
-A critical use case for encryption is the support of individuals’ privacy across the globe.
-Encryption, however, can also be used for nefarious purposes (see Phantom Secure, dismantled by law enforcement agencies in March 2018[^11]) or may be compromised to support law enforcement activities (See Operation Ironside (AFP), Operation Greenlight (Europol),
-and Operation Trojan Shield (FBI)[^12] where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+Пакетите с отворен код предоставят широк набор от функции, някои от които може да са ограничени или нежелани. 
+Шифроването е отличен пример за това.
+Важен случай за използване на криптирането е поддържането на поверителността на хората по целия свят. 
+Шифроването също така може да се използва и за нечестни цели (вижте Phantom Secure, демонтиран от правоприлагащите органи през март 2018[^11]) или може да бъде компрометирано, за да се подкрепят дейностите на правоприлагащите органи (Вижте Операция Ironside (AFP), Операция Greenlight (Europol),
+и Операция Trojan Shield (FBI)[^12], където ФБР управляваха „криптирана“ комуникационна платформа, AN0M, и убеждават престъпниците да използват своите „криптирани“ телефони за сигурна комуникация). 
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant.
-tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality.
-While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated.
-Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+Голямото приложение на криптирането го превърна в идеален случай за използване на софтуер с отворен код и чудесен пример, че всяко решение, което съхранява пакети, трябва да бъде защитено от подправяне и цензура. 
+tea е децентрализиран протокол, който не е предназначен за филтриране или санкциониране на пакети въз основа на тяхната функционалност. 
+Докато управлението на tea може да избере да премахне доказано злонамерени пакети (вижте раздела за управление за повече информация), за системата tea е от решаващо значение да се свърже с множество системи за съхранение, включително децентрализирани, които показват, че пакетът е непроменен и правилно репликиран.
+Поддържащите пакети могат да изберат системата за съхранение, която е най-подходяща за техните нужди за сигурно съхранение и разпространение на своите пакети.
 
 [^11]: Source: @fbi
 [^12]: Source: @europol
 
-# Network Participants
+# Участници в мрежата
 
-tea’s mission is to empower open-source communities and ensure their contributors are supported as they create the tools that build the Internet.
-In this white paper, we distinguish participants through their contributions.
-Some may contribute code or verify contributed code.
-Others may provide economic value to support developers and their reputation.
+Мисията на проекта tea е да даде по-голяма възможност на общностите с отворен код и да гарантира подкрепа за техните сътрудници, създаващи инструментите за изграждане на интернет.
+В настоящата "бяла книга" ние ще разпределим участниците съответно техния принос. 
+Някои може да допринесат чрез създаване на код или да потвърждаване на вече създаден такъв.
+Други могат да предоставят икономическа стойност в подкрепа на разработчиците и тяхната репутация. 
 
 ## Package Maintainers
 
