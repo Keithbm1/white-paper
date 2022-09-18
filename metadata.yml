@@ -1,24 +1,24 @@
-title: A Decentralized Protocol for Remunerating the Open‑Source Ecosystem
+title: Децентрализиран протокол за възнаграждение на екосистемата с отворен код
 abstract: |-
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+  Създаването на отворен, публичен и стабилен регистър за целия софтуер с отворен код 
+  ще даде възможност на проектите да публикуват версии независимо, вместо да разчитат на 
+  трети страни, които събират тези непостоянни данни в стотици отделни
+  системи (дублиращи се). Участниците поддържащите пакети ще публикуват своите версии на
+  децентрализираният регистър, изграден на базата на византийски устойчив на грешки блокчейн за
+  елиминиране на единични източници на проблеми, осигуряване на неизменни версии и позволяване
+  на общностите да управляват своите раздели от екосистемата с отворен код,
+  независимо от външни програми.
 
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  tea стимулира поддържането на отворен код, като позволява на участниците в мрежата
+  възможност за стейкинг срещу пакетите, от които зависят и за които осигуряват
+  защита. Графиката на tea протокола предоставя постоянна регистрация на пакетите, 
+  изисквания към зависимости, автентичност на пакетите и оракули за използване за информиране
+  алгоритъмът за възнаграждение за tea. Системната инфлация е разпределена за всички
+  пакети, базирани на този алгоритъм. Ако се откриват проблеми със сигурността или развитието,
+  разработчиците могат да правят твърдения, подкрепени с доказателства срещу пакета,
+  и възможно е да се стигне до слашинг. Членовете на общността с отворен код могат да преглеждат
+  пакетите за откриване проблеми с качеството и протоколът може да реагира на тези проверки
+  чрез въвеждане на съответни слашинг събития.
 author:
 - Max Howell
 - Timothy Lewis
@@ -74,4 +74,5 @@ header-includes:
 - \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
-- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[BG]{© 2022 tea.inc.}
+- Svetlana Fyodorovna Dulapchi
